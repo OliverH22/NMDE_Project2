@@ -525,7 +525,7 @@ input[type="text"]::placeholder
 
 .recipeDayBio p {
     font-family: textFont;
-    font-size: 1em;
+    font-size: .9em;
     margin-bottom: 0;
     float: right;
     margin-left: 40px;
@@ -676,10 +676,15 @@ input[type="text"]::placeholder
 
 
 
-  .item h3 {
-      max-width:200px;
-      width: auto;
-      min-width: 100px;
+  .item h4 {
+
+      max-width: 200px !important;
+      width: 20vw !important;
+      font-family: textFont;
+      font-size:14px;
+      text-align: center;
+      margin-bottom: 200px;
+      text-decoration: none !important;
   }
   
   .item img:hover {
@@ -689,12 +694,14 @@ input[type="text"]::placeholder
   }
   
 .moreRecipeIcons p {
-    max-width: 200px !important;
-    width: 20vw !important;
-    font-family: textFont;
-    font-size:14px;
-    text-align: center;
-    margin-bottom: 200px;
+  max-width: 200px !important;
+  width: 20vw !important;
+  text-align: center;
+  margin-bottom: -20px;
+  font-size: .7em;
+  font-family: textFont;
+  color: gray;
+  text-decoration: none !important;
 }
   
   .marquee {
@@ -730,7 +737,7 @@ input[type="text"]::placeholder
   }
   
   .marquee span {
-    width: 15%;
+    width: 13%;
     float:left;
   }
   /*.half {
@@ -779,4 +786,19 @@ input[type="text"]::placeholder
 .navMenu a{
   display:inline-block;
   padding:10px;
+}
+
+.nounderline {
+  text-decoration: none !important;
+  color: #434343;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.footer p {
+  text-decoration: none !important;
+  color: #434343;
+  font-family: textFont;
+  text-align: center;
 }
